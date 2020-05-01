@@ -1,0 +1,17 @@
+Package: myLinearRegressionPackage
+Title: Performs Linear Regression
+Version: 0.0.0.1000
+Authors@R: 
+    person(given = "Matthew",
+           family = "Salmon",
+           role = c("aut", "cre"),
+           email = "msalmon@vt.edu")
+Description: This package contains the function myLinearRegression, which performs linear regression analysis on inputted data and creates scatterplots of covariates. It outputs the coefficients and the p-values from the analysis. This package also contains the sample data myData.
+License: use_mit_license()
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Imports: GGally
+Depends: 
+    R (>= 2.10)
